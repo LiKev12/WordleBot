@@ -427,18 +427,18 @@ ws.init_board_cache()
 # ws.set_first_word_guess() # run once to get first_word_guess
 # ws.solve_single_run()
 # ws.solve_multiple_runs(10)
-ws.solve_against_dataset()
+# ws.solve_against_dataset()
 
 
 
 
 # ## test against online Wordle
 # ## 2022_02_03
-# wordle_boards = [
-#     '*_*_*_*_*_',
-#     'RYAYI_SYE_',
-#     'SGT_RYAYP_',
-#     # '*_*_*_*_*_',
-#     # '*_*_*_*_*_',
-# ]
-# ws.get_best_guess_given_boards(wordle_boards)
+wordle_boards = [
+    '*_*_*_*_*_',
+    'R_AYI_S_E_',
+    'C_LGOGAYK_',
+    # '*_*_*_*_*_',
+    # '*_*_*_*_*_',
+]
+ws.get_best_guess_given_boards(wordle_boards)
