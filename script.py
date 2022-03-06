@@ -436,9 +436,6 @@ ws.init_board_cache()
 # ## 2022_02_03
 wordle_boards = [
     '*_*_*_*_*_',
-    'R_AYI_S_E_',
-    'C_LGOGAYK_',
-    # '*_*_*_*_*_',
-    # '*_*_*_*_*_',
+    'RYA_I_S_EG',
 ]
 ws.get_best_guess_given_boards(wordle_boards)
